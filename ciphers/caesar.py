@@ -1,4 +1,4 @@
-ALPHABETH = "abcdefghijklmnopqrstuvwxyz"
+ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 
 def encrypt(plaintext: str, shift: int) -> str:
     result = []
