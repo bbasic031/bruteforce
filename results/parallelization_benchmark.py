@@ -12,8 +12,8 @@ from ciphers import columnar_transposition as transposition
 from attacks.transposition_attack import attack
 
 MIN_N = 4
-MAX_N = 9
-REPEATS = 1
+MAX_N = 10
+REPEATS = 5
 BASE_PLAINTEXT = (
     "sphinx of black quartz judge my vow "
     "the quick brown fox jumps over the lazy dog"

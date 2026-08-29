@@ -39,7 +39,7 @@ def key_space_size(key_length: int) -> int:
 
 if __name__ == "__main__":
     plaintext = "Sphinx of black quartz judge my vow"
-    key = (2, 0, 3, 1)
+    key = (3, 0, 4, 1, 2)
     ciphertext = encrypt(plaintext, key)
     print(f"Plaintext:  {plaintext}")
     print(f"Key:        {key}")
